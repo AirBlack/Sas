@@ -5,6 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+13. Write a C# program that takes a number as input and then displays a rectangle of 3 columns wide and 5 rows tall using that digit.
+Test Data:
+Enter a number: 5 
+Expected Output:
+555 
+5 5
+5 5 
+5 5 
+555
+*/
+
 namespace Exercise13
 {
     class Exercise13Program

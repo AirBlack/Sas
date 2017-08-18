@@ -5,6 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+1. Write a C# Sharp program to print Hello and your name in a separate line.
+Expected Output : 
+Hello: Alexandra Abramov
+*/
+
+
 namespace Exercise1
 {
     class Exercise1Program

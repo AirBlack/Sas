@@ -5,6 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+15. Write a C# program remove specified a character from a non-empty string using index of a character. 
+Test Data:
+w3resource
+Sample Output:
+wresource
+w3resourc
+3resource
+*/
+
 namespace Exercise15
 {
     class Exercise15Program

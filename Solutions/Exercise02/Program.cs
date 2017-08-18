@@ -5,6 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+2. Write a C# Sharp program to print the sum of two numbers.
+*/
+
 namespace Exercise2
 {
     class Exercise2Program

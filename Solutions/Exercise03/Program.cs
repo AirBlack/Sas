@@ -5,6 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+3. Write a C# Sharp program to print the result of dividing two numbers.
+*/
+
 namespace Exercise3
 {
     class Exercise3Program

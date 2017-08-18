@@ -5,6 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+16. Write a C# program to create a new string from a given string where the first and last characters will change their positions.
+Test Data:
+w3resource
+Python
+Sample Output:
+e3resourcw
+nythoP 
+*/
+
 namespace Exercise16
 {
     class Exercise16Program
