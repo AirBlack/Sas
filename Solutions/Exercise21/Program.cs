@@ -6,12 +6,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-19. Write a C# program to compute the sum of two given integers, if two values are equal then return the triple of their sum.
+21. Write a C# program to check the sum of the two given integers and return true if one of the integer is 20 or if their sum is 20.
  */
 
-namespace Exercise19
+namespace Exercise21
 {
-    class Exercise19Program
+    class Exercise21rogram
     {
         static void Main(string[] args)
         {
@@ -35,11 +35,11 @@ namespace Exercise19
             int num1 = int.Parse(args[0]);
             int num2 = int.Parse(args[1]);
 
-            int result = num1 == num2 ? (num1 + num2) * 3 : (num1 + num2);
+            var result = (num1 == 20) || (num2 == 20) || ((num1+num2) == 20);
 
             Console.WriteLine("{0}: \nGiven numbers: {1}, {2}. Result: {3}",
                 System.Reflection.MethodBase.GetCurrentMethod().Name,
-                num1, num2, result);
+                num1, num2, result.ToString());
 
         }
 
@@ -52,11 +52,11 @@ namespace Exercise19
             Console.Write("Enter second number: ");
             var num2 = int.Parse(Console.ReadLine());
 
-            int result = num1 + num2;
+            var result = false;
 
-            if (num1 == num2)
+            if ((num1 == 20)||(num2==20)||((num1+num2)==20))
             {
-                result *= 3;
+                result = true;
             }
 
             Console.WriteLine("Given numbers: {0}, {1}. Result: {2}", num1, num2, result);
@@ -75,7 +75,7 @@ namespace Exercise19
 
             var sum = array.Sum();
 
-            int result = num1 == num2 ? (sum) * 3 : (sum);
+            var result = (num1 == 20) || (num2 == 20) || ((sum) == 20);
 
             Console.WriteLine("Given numbers: {0}, {1}. Result: {2}",
                 num1, num2, result);
@@ -97,7 +97,7 @@ namespace Exercise19
 
             Array.ForEach(array, delegate(int i) { sum += i; });
 
-            int result = num1 == num2 ? (sum) * 3 : (sum);
+            var result = (num1 == 20) || (num2 == 20) || ((sum) == 20);
 
             Console.WriteLine("Given numbers: {0}, {1}. Result: {2}",
                 num1, num2, result);
@@ -122,7 +122,7 @@ namespace Exercise19
                 sum += i;
             }
 
-            int result = num1 == num2 ? (sum) * 3 : (sum);
+            var result = (num1 == 20) || (num2 == 20) || ((sum) == 20);
 
             Console.WriteLine("Given numbers: {0}, {1}. Result: {2}",
                 num1, num2, result);
@@ -147,7 +147,7 @@ namespace Exercise19
                 sum += array[i];
             }
 
-            int result = num1 == num2 ? (sum) * 3 : (sum);
+            var result = (num1 == 20) || (num2 == 20) || ((sum) == 20);
 
             Console.WriteLine("Given numbers: {0}, {1}. Result: {2}",
                 num1, num2, result);
