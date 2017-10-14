@@ -90,7 +90,7 @@ namespace Exercise28
 
             var words = str.Split(separators);
 
-            Array.Sort(words, delegate (string str1, string str2)
+            Array.Sort(words, (string str1, string str2) =>
             {
                 return Array.IndexOf(words, str2).CompareTo(Array.IndexOf(words, str1));
             });

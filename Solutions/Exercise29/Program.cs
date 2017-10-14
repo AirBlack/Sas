@@ -41,7 +41,7 @@ namespace Exercise29
 
             if (File.Exists(fullpath))
             {
-                FileInfo fileinfo = new FileInfo(fullpath);
+                var fileinfo = new FileInfo(fullpath);
 
                 Console.WriteLine("File path: {0}\nFile size: {1}", fullpath, fileinfo.Length);
             }
