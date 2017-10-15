@@ -27,10 +27,6 @@ namespace Exercise42
 
             Way3();
 
-            Way4();
-
-            Way5();
-
         }
 
         public static void Way1(string[] args)
