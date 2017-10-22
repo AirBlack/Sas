@@ -41,7 +41,7 @@ namespace Exercise51
 
             var res = Math.Max(givenArray[0], givenArray[givenArray.Length-1]);
 
-            Console.WriteLine("Result: [{0}]", string.Join(", ", res));
+            Console.WriteLine("Result: {0}", res);
 
         }
 
@@ -53,7 +53,7 @@ namespace Exercise51
 
             var res = Math.Max(givenArray.First(), givenArray.Last());
 
-            Console.WriteLine("Result: [{0}]", string.Join(", ", res));
+            Console.WriteLine("Result: {0}", res);
 
         }
 
@@ -70,7 +70,7 @@ namespace Exercise51
                 res = givenArray[givenArray.Length - 1];
             }
 
-            Console.WriteLine("Result: [{0}]", string.Join(", ", res));
+            Console.WriteLine("Result: {0}", res);
 
         }
 
@@ -87,7 +87,7 @@ namespace Exercise51
                 res = givenArray.Last();
             }
 
-            Console.WriteLine("Result: [{0}]", string.Join(", ", res));
+            Console.WriteLine("Result: {0}", res);
 
         }
 
